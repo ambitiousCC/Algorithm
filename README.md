@@ -19,7 +19,10 @@ nums[0] + nums[1] = 2 + 7 = 9,
 Solution:
 Bubble sort traversal element violence solution, note that the return is a pair of subscripts and only one result
 
+---
+
 --19/12/10--
+
 2. Given a string, find the length of the oldest string that does not contain repeating characters.
 ```
 Example 1:
