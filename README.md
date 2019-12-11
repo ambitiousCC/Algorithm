@@ -61,11 +61,10 @@ public static int lengthOfLongestSubstring(String s) {
 	return Math.max(chars.length - leftIndex, maxLength);
 }
 ```
-<<<<<<< HEAD
-
 ---
 
 --12/11--
+
 3. Determine whether an integer is a palindrome.Palindromes are integers whose positive order (from left to right) and reverse order (from right to left) are the same.
 ```
 Example 1:
@@ -80,5 +79,8 @@ Example 3:
 	Output: false
 	Explanation: read from right to left, = 01.So it's not a palindrome.
 ```
-=======
->>>>>>> c3cff7c5fcde6bf2fc8c474ad23c1fa1b5394208
+
+Solution:
+	Converts an integer to an array of characters and compares the corresponding characters one by one.
+Or you can increase difficulty:
+	Take the digits by integer mod, and then compare them one by one as before.
