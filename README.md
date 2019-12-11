@@ -65,7 +65,7 @@ public static int lengthOfLongestSubstring(String s) {
 
 --12/11--
 
-3. Determine whether an integer is a palindrome.Palindromes are integers whose positive order (from left to right) and reverse order (from right to left) are the same.
+4. Determine whether an integer is a palindrome.Palindromes are integers whose positive order (from left to right) and reverse order (from right to left) are the same.
 ```
 Example 1:
 	Input: 121
@@ -84,3 +84,21 @@ Solution:
 	Converts an integer to an array of characters and compares the corresponding characters one by one.
 Or you can increase difficulty:
 	Take the digits by integer mod, and then compare them one by one as before.
+
+5. Given a 32-bit signed integer, you need to invert the Numbers on each of the integers.
+```
+Example 1:
+	Input: 123
+	Output: 321
+Example 2:
+	Input: - 123
+	Output: - 321
+Example 3:
+	Input: 120
+	Output: 21
+```
+Note:
+	Given that our environment can only store 32-bit signed integers, the range is [−231, 231 − 1].Based on this assumption, return 0 if the integer overflows after inversion.
+
+Solution:
+	The main problem is to determine whether or not to cross the line, especially after a number inversion to determine.Use: Integer. MAX_VALUE
