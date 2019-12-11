@@ -5,11 +5,11 @@ import java.util.List;
 
 public class Demo4_2 {
 	public static void main(String[] args) {
-		System.out.println(isPalindrome(10));
+		System.out.println(isPalindrome(0));
 	}
 	
 	public static boolean isPalindrome(int n) {
-		if(n<=0)
+		if(n<0)
 			return false;
 		List<Integer> list = new ArrayList<>();
 		while(n/10!=0) {
