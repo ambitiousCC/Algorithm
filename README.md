@@ -158,3 +158,21 @@ Solution:
 2. Determine whether it is a single character
 3. Determine if the number is out of bounds
 Finally, complete the logic according to the concept of "for loop first"
+
+---
+
+--12/14--
+
+7. Write a function to find the longest common prefix in an array of strings.Returns an empty string "" if no common prefix exists.
+```
+Example 1:
+	Input: [" flower ", "flow", "flight"]
+	Output: "fl"
+Example 2:
+	Input: [" dog ", "racecar", "car"]
+	Output: ""
+Explanation: 
+	there is no common prefix for the input.
+Description:
+	All input contains only the lowercase letters a-z.
+```
