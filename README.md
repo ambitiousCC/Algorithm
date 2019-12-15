@@ -176,3 +176,53 @@ Explanation:
 Description:
 	All input contains only the lowercase letters a-z.
 ```
+
+Solution:
+* My idea is to take the character of the first string as the longest similar string, and then pass in the other strings separately for comparison, reducing the length of the string.
+
+---
+
+--12/15--
+
+8.	Given a string containing only '(', ')', '{', '}', '[', ']', determine whether the string is valid.Valid string must satisfy:The open parenthesis must be closed with the same type of close parenthesis.The open brackets must be closed in the correct order.Note that an empty string can be considered a valid string.
+```
+Example 1:
+	Input: "()"
+	Output: true
+Example 2:
+	Input: "[] {} ()"
+	Output: true
+Example 3:
+	Input: "[]"
+	Output: false
+Example 4:
+	Input: "(())"
+	Output: false
+Example 5:
+	Input: {} [] ""
+	Output: true
+```
+Note: 
+* adding and subtracting does not match characters like "({)}". This will result in incorrect results.
+Solution
+
+Solution
+* The method of push and push is used to match one by one
+```java
+public boolean isValid(String s) {
+        if(s.isEmpty())
+            return true;
+        Stack<Character> stack=new Stack<Character>();
+        for(char c:s.toCharArray()){
+            if(c=='(')
+                stack.push(')');
+            else if(c=='{')
+                stack.push('}');
+            else if(c=='[')
+                stack.push(']');
+            else if(stack.empty()||c!=stack.pop())
+                return false;
+        }
+        return stack.empty();
+    }
+```
