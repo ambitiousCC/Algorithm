@@ -2,7 +2,6 @@ package StageOne;
 
 import java.util.List;
 import java.util.ArrayList;
-import java.util.Scanner;
 
 public class Demo2 {
 	public static void main(String[] args) {
@@ -60,7 +59,7 @@ public class Demo2 {
 		return flag;
 	}
 	
-	public static int longestLength(List list) {
+	public static int longestLength(List<Integer> list) {
 		int max = 0;
 		for(int i=0;i<list.size();i++) {
 			int j = (int)list.get(i);

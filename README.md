@@ -226,3 +226,31 @@ public boolean isValid(String s) {
         return stack.empty();
     }
 ```
+---
+
+--12/16--
+
+9.Given a sorted array, you need to remove duplicate elements in place, so that each element appears only once, and return the new length of the removed array.Do not use extra array space, you must modify the input array in place and do so using O(1) extra space.
+```
+Example 1:
+	Given the array nums = [1,1,2],The function should return the new length 2, and the first two elements of the original array nums are changed to 1, 2. You don't have to worry about the elements in the array that come after the new length.
+Example 2:
+	Given nums = [0,0,1,1, 2,2,3,3,4],The function should return the new length 5, and the first five elements of the original array nums are modified to be 0, 1, 2, 3, and 4.You don't have to worry about the elements in the array that come after the new length.
+```
+
+Description:
+* Why is the return value an integer, but the output answer an array?
+* Note that the input array is passed as a "reference," which means that modifying the input array in the function is visible to the caller.You can imagine the internal operation as follows:
+```java
+// nums is passed by reference.That is, no copies of the arguments are made
+int len = removeDuplicates (nums);
+
+// modifying the input array in the function is visible to the caller.
+// based on the length returned by your function, it will print out all the elements in the array within that length range.
+for (int I = 0;I < len.I++) {
+	print (nums [I]);
+}
+```
+Solution:
+1. Sort the array
+2. Judge items one by one.
