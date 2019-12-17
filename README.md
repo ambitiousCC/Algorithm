@@ -272,3 +272,20 @@ for (int I = 0;I < len.I++) {
 Solution(both of them):
 1. Sort the array
 2. Judge items one by one.
+
+---
+
+--12/17--
+
+11. Implement the strStr() function.Given a haystack string and a needle string, find the first place in the haystack string where the needle string appears (starting at 0).If it does not exist, it returns -1.
+```
+Example 1:
+	Input: haystack = "hello", needle = "ll"
+	Output: 2
+Example 2:
+	Input: haystack = "aaaaa", needle = "bba"
+	Output: 1
+```
+Description:
+* What value should we return when the needle is an empty string?This is a good question to ask in an interview.
+* For this example, we should return 0 when needle is an empty string.This is consistent with the C language's STRSTR () and Java's indexOf() definitions.
