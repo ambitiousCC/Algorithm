@@ -289,3 +289,24 @@ Example 2:
 Description:
 * What value should we return when the needle is an empty string?This is a good question to ask in an interview.
 * For this example, we should return 0 when needle is an empty string.This is consistent with the C language's STRSTR () and Java's indexOf() definitions.
+
+---
+
+--12/18--
+
+12. Given the logarithm of n for generating parentheses, write a function that generates all possible and valid combinations of parentheses.
+``` java
+//for example, given n = 3, the resulting result is:
+[
+  "((()))",
+  "(()())",
+  "(())()",
+  "()(())",
+  "()()()"
+]
+```
+
+Solution: This is a template for solving random combinations, using two methods：
+1. Violent generation + verification
+2. Retrospective method to judge the opening and closing of parentheses
+**By the way, solving permutations and combinations doesn't list all permutations, it excludes everything from 0 to n.**
