@@ -310,3 +310,31 @@ Solution: This is a template for solving random combinations, using two methodsï
 1. Violent generation + verification
 2. Retrospective method to judge the opening and closing of parentheses
 **By the way, solving permutations and combinations doesn't list all permutations, it excludes everything from 0 to n.**
+
+---
+
+--12/19--
+
+13. Given a sorted array and a target value, find the target value in the array and return its index.If the target value does not exist in the array, returns where it will be inserted sequentially.You can assume that there are no duplicate elements in the array.
+```
+Example 1:
+	Input: [1,3,5,6], 5
+	Output: 2
+Example 2:
+	Input: [1,3,5,6], 2
+	Output: 1.
+Example 3:
+	Input: [1,3,5,6], 7
+	Output: 4
+Example 4:
+	Input: [1,3,5,6], 0
+	Output: 0
+```
+
+Solution: 
+Core ideas:
+1. Walk through several groups to compare elements
+2. Insert positionMethod 
+3. methods:
+	* the cycle of violenceMethod 
+	* **binary search method**
