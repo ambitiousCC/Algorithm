@@ -338,3 +338,19 @@ Core ideas:
 3. methods:
 	* the cycle of violenceMethod 
 	* **binary search method**
+
+---
+
+--12/20--
+
+14. Given a string containing only upper and lower case letters and Spaces, return the length of its last word.Return 0 if the last word does not exist.Explanation: a word is a string of letters that does not contain any Spaces.
+```
+Example:
+	Type: "Hello World"
+	Output: 5
+```
+
+Solution:
+1. Exclude all empty strings
+2. Remove the first space
+3. Find the position where the last space appears and truncate the string
