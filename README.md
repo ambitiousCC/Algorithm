@@ -354,3 +354,20 @@ Solution:
 1. Exclude all empty strings
 2. Remove the first space
 3. Find the position where the last space appears and truncate the string
+
+---
+
+--12/21--
+
+15. Given an integer array nums, find a contiguous subarray with a maximum sum (subarray containing at least one element) and return its maximum sum.
+```
+Example:
+	Input: [-- 2, 1, 3, 4, 1, 2, 1, 5, 4].
+	Output: 6
+```
+Explanation: the sum of consecutive subarrays [4,-1,2,1] is maximum, 6.Advanced:If you've done O(n) complexity, try a more sophisticated divide-and-conquer solution.
+
+Solution:
+1. Violent traversal
+2. Greedy algorithms
+3. Ka algorithm 
