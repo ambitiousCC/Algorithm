@@ -2,7 +2,7 @@ package StageOne;
 
 import java.util.Random;
 
-public class Demo96 {
+public class Demo014 {
 	public static void main(String[] args) {
 		//产生测试数据
 		int times = 100000;

@@ -1,6 +1,6 @@
 package StageOne;
 
-public class Demo4_1 {
+public class Demo003 {
 	public static void main(String[] args) {
 		System.out.println(isPalindrome(10));
 	}

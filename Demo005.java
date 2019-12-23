@@ -5,7 +5,7 @@ package henu;
  * @author Administrator
  *
  */
-public class Demo6 {
+public class Demo005 {
 	public static void main(String[] args) {
 		System.out.println(myAtoi("2147483648"));
 	}

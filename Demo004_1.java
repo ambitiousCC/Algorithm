@@ -3,7 +3,7 @@ package StageOne;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Demo4_2 {
+public class Demo004_1 {
 	public static void main(String[] args) {
 		System.out.println(isPalindrome(0));
 	}

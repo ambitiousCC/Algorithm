@@ -3,7 +3,7 @@ package StageOne;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Demo93 {
+public class Demo011 {
 	public static void main(String[] args) {
 		int n = 3;
 		/*********method one********/

@@ -1,6 +1,6 @@
 package StageOne;
 
-public class Demo9 {
+public class Demo008 {
 	public static void main(String[] args) {
 		int[] nums = {1,5,8,3,3,4};
 		System.out.println(removeDuplicates(nums));

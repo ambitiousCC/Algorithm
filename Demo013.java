@@ -1,6 +1,6 @@
 package StageOne;
 
-public class Demo95 {
+public class Demo013 {
 	public static void main(String[] args) {
 		String s = " H e llo wo r ld ";
 		System.out.println(lengthOfLastWord(s));

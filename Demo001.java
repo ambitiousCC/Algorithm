@@ -2,7 +2,7 @@ package StageOne;
 
 import tools.Utils;
 
-public class Demo1 {
+public class Demo001 {
 	/**
 	 * 注意返回的是下标而不是值
 	 * @param args

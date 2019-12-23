@@ -371,3 +371,21 @@ Solution:
 1. Violent traversal
 2. Greedy algorithms
 3. Ka algorithm 
+
+---
+
+--12/22--
+
+16. Given an array of non-empty integers, each element appears twice except for one.Find the element that only appears once.Description:Your algorithm should have linear time complexity.Can you do this without using extra space?
+```
+Example 1:
+	Input: [2, 2, 1]
+	Output: 1
+Example 2:
+	Input:,1,2,1,2 [4]
+	Output: 4
+```
+
+Solution:
+1. Compare several groups of violence
+2. Xor!It's the same thing that's going to make it either zero or zero

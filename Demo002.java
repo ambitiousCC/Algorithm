@@ -3,7 +3,7 @@ package StageOne;
 import java.util.List;
 import java.util.ArrayList;
 
-public class Demo2 {
+public class Demo002 {
 	public static void main(String[] args) {
 //		@SuppressWarnings("resource")
 //		Scanner scan = new Scanner(System.in);

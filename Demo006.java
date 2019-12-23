@@ -2,7 +2,7 @@ package StageOne;
 
 import java.util.List;
 import java.util.ArrayList;
-public class Demo7 {
+public class Demo006 {
 	public static void main(String[] args) {
 		String[] strs = {"aaa","aa","aaa"};
 		System.out.println(longestCommonPrefix(strs));

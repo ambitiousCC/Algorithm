@@ -2,7 +2,7 @@ package StageOne;
 
 import java.util.Stack;
 
-public class Demo8 {
+public class Demo007 {
 	public static void main(String[] args) {
 		System.out.println(isValid("([)]"));
 	}

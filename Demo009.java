@@ -1,6 +1,6 @@
 package StageOne;
 
-public class Demo91 {
+public class Demo009 {
 	public static void main(String[] args) {
 		int[] nums = {1,3,4,5,6,7};
 		int val = 3;

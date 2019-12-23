@@ -1,6 +1,6 @@
 package StageOne;
 
-public class Demo92 {
+public class Demo010 {
 	public static void main(String[] args) {
 		String haystack = "mississippi";				
 		String needle = "pi";

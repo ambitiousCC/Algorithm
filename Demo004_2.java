@@ -1,6 +1,6 @@
 package StageOne;
 
-public class Demo5 {
+public class Demo004_2{
 	public static void main(String[] args) {
 		System.out.println(reverse(1534236469));
 	}
