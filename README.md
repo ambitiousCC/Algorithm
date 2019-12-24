@@ -389,3 +389,22 @@ Example 2:
 Solution:
 1. Compare several groups of violence
 2. Xor!It's the same thing that's going to make it either zero or zero
+
+---
+
+--12/23--
+
+17. Given a string containing only the Numbers 2-9, return all the letter combinations it can represent.
+The number-to-letter mapping is given as follows (same as the phone key).Notice that 1 does not correspond to any letter.
+
+```
+Example:
+	Input: "23"
+	Output: [" AD ", "ae", "af", "bd", "be", "bf", "CD" and "ce", "cf"].
+```
+
+Solution:
+0. Create the map collection storage correspondence that meets the requirements of the title
+1. Truncate the string to get a single number
+2. Get the corresponding string by the number
+3. Piece together all possibilities from a string
