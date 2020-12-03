@@ -1,4 +1,10 @@
 # Algorithm
+
+==update in 20/12/03==
+more details begin at 202012xx file
+
+Mainly in Python\C++\Java
+
 Mainly in Java
 
 --19/12/09--
